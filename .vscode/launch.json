@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CarbonApplication<carbon>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.allsaints.carbon.CarbonApplication",
+            "projectName": "carbon",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
