@@ -20,7 +20,7 @@ function AccountForm() {
 
     if (response.ok) {
       console.log('Registration successful');
-      navigate('/dashboard'); // Redirect to dashboard page
+      navigate('/map'); // Redirect to dashboard page
     } else {
       console.error('Registration failed');
     }
