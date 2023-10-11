@@ -13,8 +13,9 @@ export default function App() {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen">
-      {!isLoggedIn && <Card className="max-w-full w-[340px] h-[500px]">
+    <div className="flex items-center justify-center h-screen" >
+      {!isLoggedIn &&
+      <Card className="max-w-full w-[340px] h-[500px]">
         <CardBody className="overflow-hidden">
           <Tabs
             fullWidth
@@ -44,7 +45,13 @@ export default function App() {
           </Tabs>
         </CardBody>
       </Card>}
-      {isLoggedIn && <MapsPage />}
+      {isLoggedIn && 
+      <Card className="max-w-full max-h-full w-[1000px] h-[600px]">
+        <CardBody className="overflow-visible py-2">
+          <MapsPage />
+        </CardBody>
+      </Card>
+      }
     </div>
   );
 }
