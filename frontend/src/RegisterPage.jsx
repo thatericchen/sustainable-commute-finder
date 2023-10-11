@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Card, CardHeader, CardBody, Input, Button } from '@nextui-org/react';
 import { useNavigate } from 'react-router-dom';
 
-function AccountForm() {
+function AccountForm({ onLogin }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [firstName, setFirstName] = useState('');
@@ -20,7 +20,7 @@ function AccountForm() {
 
     if (response.ok) {
       console.log('Registration successful');
-      navigate('/map'); // Redirect to dashboard page
+      onLogin(true);
     } else {
       console.error('Registration failed');
     }

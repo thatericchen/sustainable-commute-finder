@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Input, Button } from '@nextui-org/react';
 import { useNavigate } from 'react-router-dom';
 
-function LoginForm() {
+function LoginForm({ onLogin }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
@@ -18,7 +18,7 @@ function LoginForm() {
 
     if (response.ok) {
       console.log('Login successful');
-      navigate('/map'); // Redirect to dashboard page
+      onLogin(true);
     } else {
       console.error('Login failed');
     }
