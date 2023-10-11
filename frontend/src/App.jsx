@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Tabs, Tab, Input, Link, Button, Card, CardBody, CardHeader } from '@nextui-org/react';
 import RegisterPage from './RegisterPage';
 import LoginForm from './LoginPage';
@@ -11,6 +11,20 @@ export default function App() {
   const handleLogin = (success) => {
     setIsLoggedIn(success);
   };
+
+  const [center, setCenter] = React.useState(null);
+
+  const successCallback = (position) => {
+    setCenter([position.coords.latitude, position.coords.longitude]);
+    console.log(position);
+  };
+  
+  const errorCallback = (error) => {
+    console.log(error);
+  };
+  
+  if (center == null)
+    navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
 
   return (
     <div className="flex items-center justify-center h-screen" >
@@ -48,7 +62,7 @@ export default function App() {
       {isLoggedIn && 
       <Card className="max-w-full max-h-full w-[1000px] h-[600px]">
         <CardBody className="overflow-visible py-2">
-          <MapsPage />
+          {center && <MapsPage center={center}/>}
         </CardBody>
       </Card>
       }
