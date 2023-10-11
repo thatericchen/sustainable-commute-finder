@@ -1,11 +1,15 @@
 # CS3300-Project-1
 
-https://cdn.discordapp.com/attachments/616061053662527502/1161538039185670184/image.png?ex=6538a998&is=65263498&hm=924d1b548a89f808f06584cdf26f5aa34d931fb298eca370151529df1a3e9f01&
+![image](https://github.gatech.edu/storage/user/54232/files/a281f833-44cd-4400-a0a4-9d4615ea06d1)
 
-https://cdn.discordapp.com/attachments/616061053662527502/1161538196266553444/image.png?ex=6538a9be&is=652634be&hm=d249d390698ebd7c586f4bb76c0dc8b558819db5c31bc8122b39d8e3abf772ab&
+![image](https://github.gatech.edu/storage/user/54232/files/3aff861f-b031-41cb-84ac-c9c72b9ae109)
 
-https://cdn.discordapp.com/attachments/616061053662527502/1161538251090296882/image.png?ex=6538a9cb&is=652634cb&hm=dd79c5a1c2dcd2299c1c5748b077770c29d53d5253f0a9c470659bff6ee71228&
+![image](https://github.gatech.edu/storage/user/54232/files/e4e3b0dc-6c67-4a42-8836-d8e3cb0f2f7e)
 
-https://cdn.discordapp.com/attachments/616061053662527502/1161538324368982016/image.png?ex=6538a9dc&is=652634dc&hm=df1ed0715d9a0572449433738446e59cf2a8a4adbd2f7fdb07dd60f2ec8deeb3&
+![image](https://github.gatech.edu/storage/user/54232/files/1a95fd7c-046e-44a4-b77e-7bc70603c321)
 
-https://cdn.discordapp.com/attachments/616061053662527502/1161538388952895539/image.png?ex=6538a9ec&is=652634ec&hm=50cab62d864187988398b5b02ace13d12e978b062c9f354cc94fe8537d8732c7&
+![image](https://github.gatech.edu/storage/user/54232/files/ba47ba0e-747c-4179-9704-93ce6f81d21e)
+
+![image](https://github.gatech.edu/storage/user/54232/files/2fedaa31-ae04-4140-8c49-9175d8b3a9fc)
+
+![image](https://github.gatech.edu/storage/user/54232/files/ffd5ed24-a95e-4fe5-8284-27fce389b3bd)
