@@ -60,7 +60,7 @@ export default function App() {
         </CardBody>
       </Card>}
       {isLoggedIn && 
-      <Card className="max-w-full max-h-full w-[1000px] h-[600px]">
+      <Card className="max-w-full max-h-full w-[1000px] h-[625px]">
         <CardBody className="overflow-visible py-2">
           {center && <MapsPage center={center}/>}
         </CardBody>

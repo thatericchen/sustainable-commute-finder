@@ -32,11 +32,11 @@ function MapsPage({center}) {
     const treesEquivalent = Math.round(total / 22); // Assuming 22kg CO2 absorbed by a tree per year
     
     if (totalDistanceRef.current < 1500) {
-        str += `🚶‍♂️ **Consider Walking!** Not only is it a healthy choice, but by walking, your carbon footprint is essentially zero. It is a small step that makes a big difference for our planet. 🌎 The CO2 you'd save is equivalent to planting ${treesEquivalent} trees annually!`;
+        str += `🚶‍♂️ Consider Walking! Not only is it a healthy choice, but by walking, your carbon footprint is essentially zero. It is a small step that makes a big difference for our planet. 🌎 The CO2 you'd save is equivalent to planting ${treesEquivalent} trees annually!`;
     } else if (totalDistanceRef.current < 5000) {
-        str += `🚴 **How About Biking?** It is a fun, fit, and eco-friendly alternative that significantly reduces your carbon emissions compared to driving. Cycling this distance instead of driving could be like planting ${treesEquivalent} trees each year!`;
+        str += `🚴 How About Biking? It is a fun, fit, and eco-friendly alternative that significantly reduces your carbon emissions compared to driving. Cycling this distance instead of driving could be like planting ${treesEquivalent} trees each year!`;
     } else {
-        str += `🚗 **Driving is Convenient, But...** While driving offers comfort and speed, it's essential to keep environmental protection in mind. The CO2 emissions from this trip are significant. To offset the environmental impact, think about ways to drive less or consider more eco-friendly travel options in the future. The emissions from this trip are equivalent to what ${treesEquivalent} trees might absorb in a year. Every little change can help create a greener future. 🌳`;
+        str += `🚗 Driving is Convenient, But... While driving offers comfort and speed, it's essential to keep environmental protection in mind. The CO2 emissions from this trip are significant. To offset the environmental impact, think about ways to drive less or consider more eco-friendly travel options in the future. The emissions from this trip are equivalent to what ${treesEquivalent} trees might absorb in a year. Every little change can help create a greener future. 🌳`;
     }
     setRec(str);
   };
