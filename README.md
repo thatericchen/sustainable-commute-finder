@@ -15,7 +15,7 @@ Deployed on https://cs3300proj1frontend.ue.r.appspot.com/
 | Build|                     MAVEN, GCP                      |
 
 
-# Option 1: Build and Run
+# Build and Run
 ## Option 1.1: Build jar
 ### Prerequisite Installation
 - Maven
