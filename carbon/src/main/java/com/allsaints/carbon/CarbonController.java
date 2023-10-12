@@ -34,4 +34,17 @@ public class CarbonController {
 
         return ResponseEntity.ok("Login successful");
     }
+
+    @PostMapping("/forgot-password")
+    public ResponseEntity<String> forgotPassword(@RequestBody Account forgotPasswordRequest) {
+        Account account = repository.findByEmail(forgotPasswordRequest.email);
+        if (account == null) {
+            return ResponseEntity.badRequest().body("Account not found");
+        }
+    
+        account.password = forgotPasswordRequest.password;
+        repository.save(account);
+    
+        return ResponseEntity.ok("Password changed");
+    }
 }
