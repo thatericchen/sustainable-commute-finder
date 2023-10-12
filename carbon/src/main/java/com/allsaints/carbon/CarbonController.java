@@ -1,15 +1,11 @@
 package com.allsaints.carbon;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin(maxAge = 3600)
@@ -37,5 +33,18 @@ public class CarbonController {
         }
 
         return ResponseEntity.ok("Login successful");
+    }
+
+    @PostMapping("/forgot-password")
+    public ResponseEntity<String> forgotPassword(@RequestBody Account forgotPasswordRequest) {
+        Account account = repository.findByEmail(forgotPasswordRequest.email);
+        if (account == null) {
+            return ResponseEntity.badRequest().body("Account not found");
+        }
+    
+        account.password = forgotPasswordRequest.password;
+        repository.save(account);
+    
+        return ResponseEntity.ok("Password changed");
     }
 }
