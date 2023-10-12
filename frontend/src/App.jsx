@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Tabs, Tab, Input, Link, Button, Card, CardBody, CardHeader } from '@nextui-org/react';
+import React from 'react';
+import { Tabs, Tab, Link, Card, CardBody} from '@nextui-org/react';
 import RegisterPage from './RegisterPage';
 import LoginForm from './LoginPage';
 import MapsPage from './MapsPage';
