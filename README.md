@@ -1,7 +1,5 @@
 # CS3300-Project-1
 
-# CS3300-Project-1
-
 CS 3300 (Fall 2023) Project1 - Group 8
 
 # Visit
