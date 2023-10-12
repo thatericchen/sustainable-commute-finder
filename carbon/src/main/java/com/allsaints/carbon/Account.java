@@ -13,6 +13,7 @@ public class Account {
     public String firstName;
     public String lastName;
 
+    //Leaving empty constructor here but not sure if it should ever be used
     public Account() {}
 
     public Account(String email, String password, String firstName, String lastName) {
@@ -20,12 +21,5 @@ public class Account {
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
-    }
-
-    @Override
-    public String toString() {
-        return String.format(
-            "Account[id=%s, email='%s', password='%s', firstName='%s', lastName='%s']",
-            id, email, password, firstName, lastName);
     }
 }
