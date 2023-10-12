@@ -17,5 +17,8 @@ public interface AccountRepository extends MongoRepository<Account, String> {
     @Query("{'firstName': ?0}")
     List<Account> findByFirstName(String firstName);
 
+    @Query("{'firstName': ?0}")
+    Account findFirstByFirstName(String firstName);
+
     List<Account> findAll();
 }
