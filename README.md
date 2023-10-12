@@ -73,10 +73,10 @@ gcloud app browse
 ```
 
 ### Frontend - React
-Navigate to `./frontend` directory and execute
+Navigate to `./frontend/` directory and execute
 ```
 npm install
-npm run start
+npm run dev
 
 ```
 Then the frontend page should be available on [http://localhost:5173>].
