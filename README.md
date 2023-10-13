@@ -103,7 +103,7 @@ Database Setup
   - gcloud app browse
 - Clean up to avoid billing charges: Project settings => shut down project
 
-## Backend - Spring Boot Configuration:
+## Backend - Spring Boot Configuration
 
 Navigate to the project root directory and execute
 
@@ -131,20 +131,20 @@ The app should be available on http://localhost:5173
 
 ![image](https://github.gatech.edu/storage/user/54232/files/ffd5ed24-a95e-4fe5-8284-27fce389b3bd)
 
-#### Choose the vehicles with the starting spot and destination:
+#### Dropdown Menu for Commute Options
 
 ![image](https://github.gatech.edu/storage/user/54232/files/a281f833-44cd-4400-a0a4-9d4615ea06d1)
 
-#### Calculate the footprint for specific vehicle
+#### Distance between Location Markers
 
 ![image](https://github.gatech.edu/storage/user/54232/files/3aff861f-b031-41cb-84ac-c9c72b9ae109)
 
-#### Showing the footprint result:
+#### Carbon Footprint Estimation
 
 ![image](https://github.gatech.edu/storage/user/54232/files/ba47ba0e-747c-4179-9704-93ce6f81d21e)
 ![image](https://github.gatech.edu/storage/user/54232/files/ba47ba0e-747c-4179-9704-93ce6f81d21e)
 
-#### Showing information for the user so that they will have a more sustainable commuting option:
+#### Message/Environmental Impact
 
 ![image](https://github.gatech.edu/storage/user/54232/files/e4e3b0dc-6c67-4a42-8836-d8e3cb0f2f7e)
 ![image](https://github.gatech.edu/storage/user/54232/files/1a95fd7c-046e-44a4-b77e-7bc70603c321)
