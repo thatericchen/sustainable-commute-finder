@@ -1,5 +1,8 @@
 # Sustainable Commute Finder
 
+## Introduction
+Sustainable Commute Finder is a comprehensive web app designed to help users make informed, eco-friendly commuting decisions. By integrating interactive maps, carbon footprint estimations, and dynamic transportation options, the app empowers users to compare various travel modes and select the most sustainable routes. This project combines modern web technologies (Vite, React, Spring Boot) with a robust MongoDB backend and GCP deployment pipeline to deliver a seamless, user-friendly experience. It is built with a commitment to environmental consciousness, aiming to educate and encourage users to choose greener transportation options and reduce their carbon footprints.
+
 ## Release Notes
 #### V6.0 - Transportation Options Dropdown Menu & UI Enhancements
 - Introduced a dropdown menu for transportation options and enhanced UI.
