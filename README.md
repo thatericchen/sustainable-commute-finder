@@ -45,15 +45,12 @@ Sustainable Commute Finder is a comprehensive web app designed to help users mak
 ### GCP instruction and MongoDB Configuration
 #### GCP Setup
 Download Google Cloud CLI for your respective OS and run the script to install it.
-
 - GCP credit application
 - Make Sure Billing Information is Set Up
 - Create a new project
 
 Navigate to Google Cloud Console and Create a Simple Spring Boot Application.
-
 - Navigate to https://start.spring.io/
-
   - Project: Maven
   - Packaginging: jar
   - Java: 17 (we used 17 instead)/ but based on the instructor's notes, recommend using version 8.
@@ -68,18 +65,16 @@ Navigate to Google Cloud Console and Create a Simple Spring Boot Application.
   - Windows can run
     - ./mvnw.cmd clean install
   - These are the packages the maven builds into a JAR file in the target directory which we will use to deploy onto GCP.
-- Deploy to GCP
-  - Run gcloud -v to make sure the Google Cloud CLI is installed
-  - Run gcloud init to initialize google cloud.
-  - Make sure to choose the default configuration
-  - You will then be prompted to login with your email. (Make sure to use the email that has billing set up with the credits provided)
+
+Deploy to GCP
+- Run `gcloud -v` to make sure the Google Cloud CLI is installed.
+- Run `gcloud init` to initialize google cloud.
+- Make sure to choose the default configuration.
+- You will then be prompted to login with your email (make sure to use the email that has billing set up with the credits provided).
 
 #### Database Setup
-
 - MongoDB
-
   - Set the url to the MongoDB in environment variable, and we set this auto_create_database connect with GCP, and set up the authentication with GCP, then create a admin role, and we get this url:`spring.data.mongodb.uri=mongodb+srv://adminUser:yourSecurePassword@127.0.0.1:27017/accounts`, replacing `<adminUser>`, `<yourSecurePassword>`, and `<127.0.0.1:27017>` with your IP range.
-
 - Once successfully deployed, there will be a URL in the console to take you to where the project is deployed.
 - If not, run：
   - gcloud app browse
