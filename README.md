@@ -46,24 +46,23 @@ Sustainable Commute Finder is a comprehensive web app designed to help users mak
 #### GCP Setup
 Download Google Cloud CLI for your respective OS and run the script to install it.
 - GCP credit application
-- Make Sure Billing Information is Set Up
+- Make sure billing information is set up
 - Create a new project
 
-Navigate to Google Cloud Console and Create a Simple Spring Boot Application.
+Navigate to Google Cloud Console and create a Spring Boot Application.
 - Navigate to https://start.spring.io/
   - Project: Maven
   - Packaging: jar
-  - Java: 17 (we used 17 instead)/ but based on the instructor's notes, recommend using version 8.
+  - Java: 17
   - Add the Spring Web dependency and click generate
 
-- Package the Maven Build: To test and get development
-  server running, we will need maven.
+- Package the Maven Build: To test and get development server running, we will need maven.
   - If there is a path variable defined for maven run
-    - mvn clean install
+    - `mvn clean install`
   - If no path variable, macOS can run
-    - ./mvnw clean install
+    - `./mvnw clean install`
   - Windows can run
-    - ./mvnw.cmd clean install
+    - `./mvnw.cmd clean install`
   - These are the packages the maven builds into a JAR file in the target directory which we will use to deploy onto GCP.
 
 Deploy to GCP
