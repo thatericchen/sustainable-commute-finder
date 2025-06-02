@@ -43,6 +43,7 @@ Sustainable Commute Finder is a comprehensive web app designed to help users mak
 - MongoDB 7.0
 
 ### GCP instruction and MongoDB Configuration
+#### GCP Setup
 Download Google Cloud CLI for your respective OS and run the script to install it.
 
 - GCP credit application
@@ -73,7 +74,7 @@ Navigate to Google Cloud Console and Create a Simple Spring Boot Application.
   - Make sure to choose the default configuration
   - You will then be prompted to login with your email. (Make sure to use the email that has billing set up with the credits provided)
 
-Database Setup
+#### Database Setup
 
 - MongoDB
 
