@@ -52,7 +52,7 @@ Download Google Cloud CLI for your respective OS and run the script to install i
 Navigate to Google Cloud Console and Create a Simple Spring Boot Application.
 - Navigate to https://start.spring.io/
   - Project: Maven
-  - Packaginging: jar
+  - Packaging: jar
   - Java: 17 (we used 17 instead)/ but based on the instructor's notes, recommend using version 8.
   - Add the Spring Web dependency and click generate
 
