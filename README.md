@@ -120,7 +120,7 @@ If you encounter issues while running the app, refer to the following common pro
   - **Problem:** The dropdown was not displaying all options.
   - **Solution:** Ensure the app is updated to the latest version where the data retrieval and rendering process is enhanced. Clear the browser cache or try a different browser if the issue persists.
 
-- **UI Inconsistencies across Devices**
+- **UI Inconsistencies Across Devices**
   - **Problem:** The user interface isn't rendering consistently on all devices.
   - **Future Solution:** Adaptive UI has not been implemented yet, so this will be a future feature we can implement.
 
