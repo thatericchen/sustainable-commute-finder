@@ -74,10 +74,13 @@ Deploy to GCP
 #### Database Setup
 - MongoDB
   - Set the url to the MongoDB in environment variable, and we set this auto_create_database connect with GCP, and set up the authentication with GCP, then create a admin role, and we get this url:`spring.data.mongodb.uri=mongodb+srv://adminUser:yourSecurePassword@127.0.0.1:27017/accounts`, replacing `<adminUser>`, `<yourSecurePassword>`, and `<127.0.0.1:27017>` with your IP range.
-- Once successfully deployed, there will be a URL in the console to take you to where the project is deployed.
-- If not, run：
-  - gcloud app browse
-- Clean up to avoid billing charges: Project settings => shut down project
+Once successfully deployed, there will be a URL in the console to take you to where the project is deployed.
+
+If not, run：
+
+- `gcloud app browse`
+
+Clean up to avoid billing charges: Project settings -> shut down project
 
 ### Download, Build, & Run Instructions
 First, clone the repository by running `git clone https://github.com/thatericchen/sustainable-commute-finder.git`.
