@@ -42,7 +42,7 @@ Sustainable Commute Finder is a comprehensive web app designed to help users mak
 - GCP
 - MongoDB 7.0
 
-### GCP instruction and MongoDB configuration:
+### GCP instruction and MongoDB Configuration
 Download Google Cloud CLI for your respective OS and run the script to install it.
 
 - GCP credit application
