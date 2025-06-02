@@ -85,7 +85,10 @@ Navigate to Google Cloud Console and Create a Simple Spring Boot Application.
   - gcloud app browse
 - Clean up to avoid billing charges: Project settings => shut down project
 
-### Backend - Spring Boot Configuration
+### Download, Build, & Run Instructions
+First, clone the repository by running `git clone https://github.com/thatericchen/sustainable-commute-finder.git`.
+
+#### Backend - Spring Boot Configuration
 
 Navigate to the project root directory and execute
 
@@ -94,7 +97,7 @@ mvn clean install
 gcloud app browse
 ```
 
-### Frontend - React
+#### Frontend - React
 
 Navigate to `./frontend/` directory and execute
 
@@ -105,26 +108,6 @@ npm run dev
 
 The app will be available on http://localhost:5173.
 
-#### Login page
-![image](https://github.gatech.edu/storage/user/54232/files/2fedaa31-ae04-4140-8c49-9175d8b3a9fc)
-
-#### Signup page
-![image](https://github.gatech.edu/storage/user/54232/files/ffd5ed24-a95e-4fe5-8284-27fce389b3bd)
-
-#### Dropdown Menu for Commute Options
-![image](https://github.gatech.edu/storage/user/54232/files/a281f833-44cd-4400-a0a4-9d4615ea06d1)
-
-#### Distance between Location Markers
-![image](https://github.gatech.edu/storage/user/54232/files/3aff861f-b031-41cb-84ac-c9c72b9ae109)
-
-#### Carbon Footprint Estimation
-![image](https://github.gatech.edu/storage/user/54232/files/ba47ba0e-747c-4179-9704-93ce6f81d21e)
-![image](https://github.gatech.edu/storage/user/54232/files/ba47ba0e-747c-4179-9704-93ce6f81d21e)
-
-#### Message/Environmental Impact
-![image](https://github.gatech.edu/storage/user/54232/files/e4e3b0dc-6c67-4a42-8836-d8e3cb0f2f7e)
-![image](https://github.gatech.edu/storage/user/54232/files/1a95fd7c-046e-44a4-b77e-7bc70603c321)
-
 ## Troubleshooting <a name="troubleshooting"></a>
 If you encounter issues while running the app, refer to the following common problems and their solutions.
 
@@ -134,7 +117,7 @@ If you encounter issues while running the app, refer to the following common pro
 
 ### Bug Fixes
 - **Dropdown Menu Loading Issue**
-  - **Problem:** The dropdown wasn’t displaying all options.
+  - **Problem:** The dropdown was not displaying all options.
   - **Solution:** Ensure the app is updated to the latest version where the data retrieval and rendering process is enhanced. Clear the browser cache or try a different browser if the issue persists.
 
 - **UI Inconsistencies across Devices**
@@ -142,11 +125,7 @@ If you encounter issues while running the app, refer to the following common pro
   - **Future Solution:** Adaptive UI has not been implemented yet, so this will be a future feature we can implement.
 
 ## Next Steps
-### Integration with Real-Time Data <a name="real-time-data"></a>
-Incorporate real-time data sources like traffic conditions, weather updates, and public transport schedules to provide users with accurate and dynamic carbon footprint calculations. Users will receive real-time estimates, ensuring that the provided data is current and reflective of the actual environmental impact.
-
-### Custom User Profiles <a name="user-profiles"></a>
-Custom user profiles would encourage long-term user engagement and offer personalized insights and recommendations. Users can track their progress, encouraging a continued commitment to reducing their carbon footprint during commutes.
+Future development will focus on integrating real-time data sources such as traffic conditions, weather updates, and public transport schedules to provide users with accurate, dynamic carbon footprint calculations. This enhancement will ensure that users receive real-time estimates, making the information more relevant and actionable. Additionally, introducing custom user profiles will encourage long-term engagement by offering personalized insights and recommendations. Users will be able to track their progress over time, fostering a sustained commitment to reducing their carbon footprint during commutes.
 
 ## Acknowledgements
 Zexiu An, Eric Chen, Tingyue He, James Li, Karen Sun
